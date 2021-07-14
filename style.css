@@ -34,7 +34,6 @@ header{
 {
     color:white;
     font-size: 40px;
-    /* line-height: 20px; */
     margin-right: 102px;
     padding-top: 60px;
 }
@@ -64,9 +63,7 @@ header{
 .flone{
     display: flex;
      justify-content: center; 
-
 }
-
 
 .player-img img{
     width: 300px;
@@ -97,12 +94,9 @@ header{
     grid-template-columns: repeat(3,1fr);
     align-items: center;
     margin-top:45px;
-    
-    
-
 }
 
-/* moments side */
+/* Extra-side */
 .moments {
     display: flex;
     flex-direction: column;
@@ -167,7 +161,7 @@ footer{
     }
     .head-image img{
         width:329px;
-        margin-left:10px;
+        margin-left:20px;
         margin-right: 20px;
         margin-top: 30px;
          }
