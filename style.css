@@ -10,7 +10,13 @@ body{
 .head-image img{
     width: 556px;
     height: 438px;
+    
 }
+.head-image img:hover{
+    transform: rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+
 .container{
     display:flex;
     justify-content: center; 
@@ -110,7 +116,7 @@ header{
 /* footer-side */
 
 footer{
-    margin-top: 30px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,13 +165,15 @@ footer{
     .head-button{
         margin-left: 40px;
     }
-    .head-image{
-        width:259px;
-        margin-right: 70px;
+    .head-image img{
+        width:329px;
+        
+        margin-right: 20px;
         margin-top: 30px;
-        
-        
-    }
+         }
+         footer{
+             width: 100%;
+         }
 
 }
 
