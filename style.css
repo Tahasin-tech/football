@@ -5,6 +5,8 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+
+/* header-side */
 .head-image img{
     width: 556px;
     height: 438px;
@@ -26,7 +28,7 @@ header{
 {
     color:white;
     font-size: 40px;
-    line-height: 20px;
+    /* line-height: 20px; */
     margin-right: 102px;
     padding-top: 60px;
 }
@@ -48,6 +50,15 @@ header{
     background-image: linear-gradient(maroon, red);
     transform: scale(1.2);
     
+}
+
+/* bodyside */
+
+
+.flone{
+    display: flex;
+     justify-content: center; 
+
 }
 
 
@@ -84,24 +95,8 @@ header{
     
 
 }
-.flone{
-    display: flex;
-     justify-content: center; 
 
-}
-
-.footer-img img{
-    width: 483px;
-    height: 110px;
-    
-
-}
-.fab{
-    color: #969BAB;
-    font-size: 17px;
-    padding: 2px;
-    margin-left: 10px;
-}
+/* moments side */
 .moments {
     display: flex;
     flex-direction: column;
@@ -112,6 +107,8 @@ header{
     color: #2D25A0 ;
 }
 
+/* footer-side */
+
 footer{
     margin-top: 30px;
     display: flex;
@@ -119,6 +116,56 @@ footer{
     justify-content: center;
     align-items: center;
     margin-bottom: 0;
+
+}
+.footer-img img{
+    width: 483px;
+    height: 110px;
+}
+.fab{
+    color: #969BAB;
+    font-size: 17px;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+/* media-query */
+
+@media only screen and (max-width:688px){
+    .top-players{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .players{
+        width: 330px;
+        margin-left: 15px;
+        
+    }
+     .moments iframe{
+        width: 320px;
+    } 
+    .footer-img img{
+        width:250px;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+    .head-text{
+        margin-left: 50px;
+        font-size: 26px;
+        margin-bottom: 20px;
+       
+    }
+    .head-button{
+        margin-left: 40px;
+    }
+    .head-image{
+        width:259px;
+        margin-right: 70px;
+        margin-top: 30px;
+        
+        
+    }
 
 }
 
