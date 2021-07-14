@@ -41,7 +41,7 @@ header{
 .head-button a{
     background-color:#E02C6D;
     display: inline-block;
-    padding: 15px 30px 15px 10px;
+    padding: 10px 30px 10px 15px;
     text-decoration: none;
     color: white;
     font-size: 16px;
@@ -163,11 +163,11 @@ footer{
        
     }
     .head-button{
-        margin-left: 40px;
+        margin-left: 48px;
     }
     .head-image img{
         width:329px;
-        
+        margin-left:10px;
         margin-right: 20px;
         margin-top: 30px;
          }
